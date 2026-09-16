@@ -1,4 +1,4 @@
-import { gameData } from 'https://github.com/sophie006liu/vegetal/blob/sophie/home_page/js/gameData.js';
+import { gameData } from './gameData.js';
 
 const personalities = { 
     "Onion": 0,
