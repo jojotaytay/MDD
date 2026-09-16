@@ -23,7 +23,7 @@ export const gameData = {
             "Build a sandcastle with your friends!": [41,["Jalapeno", "Bitter mellon"]],
             "Set up a beach picnic": [41,["Green Beans", "Bok Choy", "Sweet Potato"]],
             "Explore tide pools and collect shells": [41,["Okra", "Pumpkin", "Carrot"]],
-            "Read the book you've been eyeing": [41,["Pumpkin", "Broccoli", "Kale"]],
+            "Read the book you've been eyeing": [41,["Pumpkin", "Broccoli", "Kale"]]
         }
     },
     "41": {
@@ -32,7 +32,7 @@ export const gameData = {
             "This is fun, I'm grateful for my friends": [7,["Jalapeno", "Bitter mellon"]],
             "This shell is so funky lol": [7,["Green Beans", "Bok Choy", "Sweet Potato"]],
             "Love my friends, but I wanna go home": [7,["Okra", "Pumpkin", "Carrot"]],
-            "What if we all went scuba diving": [7,["Pumpkin", "Broccoli", "Kale"]],
+            "What if we all went scuba diving": [7,["Pumpkin", "Broccoli", "Kale"]]
         }
     },
     "7": {
@@ -81,7 +81,7 @@ export const gameData = {
         "choices":{
             "Is this the end?": [42, []],
             "Everyone hide!": [42, []],
-            "ALIENS!": [42, []],
+            "ALIENS!": [42, []]
         }
     },
     "42": {
@@ -150,7 +150,7 @@ export const gameData = {
         "choices" : {
             "Join a book club discussion on the hottest new book": [16,["Green Beans"]],
             "Book scavenger hunt around the store for a free prize":[16,["Jalapeno"]],
-            "A creative writing workshop and storytelling event":[16, ["Onion", "Bok Choy"]]     
+            "A creative writing workshop and storytelling event":[16, ["Onion", "Bok Choy"]]    
         }
     },
     "16":{
@@ -160,7 +160,7 @@ export const gameData = {
             "Goodbye everyone it was nice knowing you": [17,[]],
             "Error 404 veggie brain is in a state of panic": [17, []],
             "Everyone try holding hands!": [17,[]],
-            "Weeee!": [17,[]],
+            "Weeee!": [17,[]]
        } 
     },
     "17": {
@@ -196,7 +196,7 @@ export const gameData = {
                 bearing gouda cheese yells, \"What are you doing? This is this \
                 sacred cheese you're scavenging on!\"",
         "choices" : {
-            "You want some? Offer them some of your charcuterie board": [21,[ ["Onion", "Potato"]]],
+            "You want some? Offer them some of your charcuterie board": [21, ["Onion", "Potato"]],
             "Apologize immediately, ask if he knows how to get to the Cheese Castle":[21, ["Sweet Potato"]]
         }
     },
@@ -211,16 +211,16 @@ export const gameData = {
         }
     },
     "22": {
-        "text": "The Cheese King laughs, not sure if he's laughing with or at your friends. He chuckles, \"I see you desire to return to Veggie Land. I must ask, what do you miss the most about home?\"",
+        "text": "The Cheese King laughs, not sure if he's laughing with or at your friends. He chuckles, \"I see you desire to return to Veggie Land. I must ask, what do you miss the most about h[...]\",
         "choices": {
-            "The warm sunlight and fresh air of Veggie Land": [23,"Jalapeno", "Potato", "Napa Cabbage"],
+            "The warm sunlight and fresh air of Veggie Land": [23, ["Jalapeno", "Potato", "Napa Cabbage"]],
             "The lively gathering and festivities with your veggie friends": [23,["Corn"]],
             "The smell of your grandma's famous cherry pies": [23,["Sweet Potato"]],
             "Weekly cricket games at the park": [23,["Bok Choy"]]
         }
     },
     "23": {
-        "text": "\"Very well. I will send you on a raft to back to VeggieLand.\" And with that you embark on your all-expensed trip back to VeggieLand. Where would you guys like to make your pit stop?",
+        "text": "\"Very well. I will send you on a raft to back to VeggieLand.\" And with that you embark on your all-expensed trip back to VeggieLand. Where would you guys like to make your pit [...]]",
         "choices":{
             "Mushroom Island, known for pioneering mushroom tech": [24,["Kale", "Onion"]],
             "Dandelion Plains, known for its sunshine and farms": [25,["Corn", "Potato", "Napa Cabbage"]],
@@ -232,7 +232,7 @@ export const gameData = {
         "choices" :{
             "Get a new mushroom telephone, its got wider coverage with its latest spore dispersion technology": [27,["Kale"]],
             "Party on da MushroomSoft roof, they're debuting their latest vehicle, the Vroomie Schroomie": [27,["Bok Choy"]],
-            "Buy a little mushroom keepsake for you and your friends": [27,"Corn", "Napa Cabbage"],
+            "Buy a little mushroom keepsake for you and your friends": [27, ["Corn", "Napa Cabbage"]],
             "I just wanna go back home tbh": [27, ["Potato"]]
         }
     },
@@ -365,7 +365,7 @@ export const gameData = {
             "Gather resources and make a makeshift camp": [37,["Carrot"]],
             "Start gathering the group to decide what to do": [37, ["Onion"]],
             "Telling exciting stories and reflect on the trek so far": [37, ["Garlic"]],
-            "Map out next steps of the journey": [37, ["Broccoli"]],
+            "Map out next steps of the journey": [37, ["Broccoli"]]
         }
     },
     "36": {
@@ -374,13 +374,13 @@ export const gameData = {
             "Pause to look at the starry night": [37,["Napa Cabbage"]],
             "Just keep going, why are we stopping?": [37,["Garlic"]],
             "Water and snacks! Food is fuel": [37, ["Green Beans"]],
-            "Check in with everyone to see how they're doing": [37,["Broccoli", "Napa Cabbage"]],
+            "Check in with everyone to see how they're doing": [37,["Broccoli", "Napa Cabbage"]]
         }
     },
     "37": {
-        "text": "The climb continues for days. And you finally reach the top! Take a look around you, you're on top of the world! Suddenly, a gust of wind blows you off the mountain and you swirl and tumble until...",
+        "text": "The climb continues for days. And you finally reach the top! Take a look around you, you're on top of the world! Suddenly, a gust of wind blows you off the mountain and you swirl[...]",
         "choices" :{
-            "Continue": [38,[]],
+            "Continue": [38,[]]
         }
     },
     "38": {
@@ -388,7 +388,7 @@ export const gameData = {
         "choices": {
             "Make a fancy charcuterie board as a snack break": [20,["Okra"]],
             "Go inland in search of the Cheese City": [20,["Onion", "Napa Cabbage", "Carrot"]],
-            "Ask others what they think the group should do": [20,["Broccoli", "Green beans", "Napa Cabbage"]],
+            "Ask others what they think the group should do": [20,["Broccoli", "Green Beans", "Napa Cabbage"]],
             "Lead the pack around using your knowledge of Cheese Land geography": [20,["Garlic"]]
         }
     }
